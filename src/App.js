@@ -1,14 +1,12 @@
 import './App.css';
 import products from './data/products';
-import Product  from './Product';
+import Search from './Search';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {products.map((prod)=>{
-          return <Product key={prod.id} id={prod.id} name={prod.name} price={prod.price} image={prod.image}/>
-        })}
+        <Search products={products}></Search>
       </header>
     </div>
   );
