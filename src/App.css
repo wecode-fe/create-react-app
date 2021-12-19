@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.product-container img{
+  width: 50rem;
+}
+
+.product-container button{
+  width: 100%;
+  color: white;
+  border: 0px;
+  padding:1rem;
+  background-color: steelblue;
+  font-size: 1rem;
+}
